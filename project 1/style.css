@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    font-family:"Open Sans", sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #3D5A80;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 7vw;
+    height: 80px;
+    
+}
+.nav-container h3{
+    color: white;
+    cursor: pointer;
+}
+.nav-container a{
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1rem;
+    transition: 150ms ease;
+}
+.nav-container .get-in-touch{
+    background-color: #EE6C4D;
+    padding: 10px 25px;
+    margin-right: 0;
+    border-radius: 5pt;
+    transition: 150ms ease;
+    
+}
+.nav-container .get-in-touch:hover{
+    background-color: #cf5537;
+    box-shadow: 1px 1px 9px #263a54;
+    color: white;
+}
+.nav-container  a:hover{
+    color: #EE6C4D;
+}
+
+#hero{
+    box-sizing: border-box;
+    background-color: #3D5A80;
+    height: 550px;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+}
+.heading-button .get-in-touch{
+    background-color: #EE6C4D;
+    padding: 15px 30px;
+    border-radius: 5pt;
+    transition: 150ms ease;
+    
+}
+.heading-button .get-in-touch:hover{
+    background-color: #cf5537;
+    box-shadow: 1px 1px 9px #263a54;
+    color: white;
+}
+.heading-button a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 150ms ease;
+}
+.person img{
+    height: 500px;
+   
+}
+.heading-button h1{
+    font-size: 40pt;
+    color: white;
+    margin-top: 70px;
+    line-height: 1.1;
+}
+.heading-button h1 span{
+    color: #EE6C4D;
+}
+.heading-button p{
+    color: white;
+    font-weight: 350;
+    margin-bottom: 10px;
+}
+.heading-button{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.tech-stack{
+    background-color: #293241;
+    height: 490px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+.tech-stack img{
+    width: 371px;
+    height: 308px;
+}
+.about-wrapper{
+    width: 420px;
+}
+.about-me{
+    border-bottom: 2px solid #EE6C4D;
+}
+.about-me h3{
+    font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+.about-text{
+    margin-top: 9%;
+}
+.about-text p{
+    font-weight: 350;
+}
+.companies{
+    background-color: #2f3746;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 50px 0 65px 0;
+}
+.worked-text h3{
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.orange-line{
+    height: 2px;
+    width: 140px ;
+    background-color: #EE6C4D;
+    margin-bottom: 20px;
+}
+.logo-wrapper img{
+    margin-left: 80px;
+    
+}
+.recent-container{
+    width: 100%;
+    background-color:#293241 ;
+}
+.recent-wrapper{
+    
+    display: flex;
+    flex-direction: column;
+    height: 800px;
+    justify-content: center;
+    align-items:center;
+    gap: 30px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.recent-wrapper .orange-line{
+    width: 180px;
+    align-self: flex-start;
+    margin-top: -20px;
+}
+.recent-text{
+    align-self: flex-start;
+}
+.recent-text h3{
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+}
+ .get-in-touch{
+    background-color: transparent;
+    padding: 10px 25px;
+    outline: 2px solid #EE6C4D;
+    border-radius: 5pt;
+    transition: 150ms ease;
+ 
+    
+}
+ .get-in-touch:hover{
+    background-color: #EE6C4D;
+    color: white;
+}
+.recent-wrapper-a a{
+    color: #EE6C4D;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 150ms ease;
+}
+.img-grid{
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    
+}
+.img-grid img{
+    transition: 150ms ease;
+}
+.img-grid img:hover{
+    scale:1.05;
+}
+.clients{
+    height: 400px;
+}
+.clients .orange-line{
+    margin-bottom: 50px;
+}
+.clients img{
+    transition: 150ms ease;
+}
+.clients img:hover{
+    scale:1.03;
+}
+.footer{
+    height: 100px;
+    background-color: #293241;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.project{
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 30px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.socials{
+    display: flex;
+    gap:10px;
+}
+.socials i{
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.footer p{
+    font-weight: 300;
+}
+.project .send input{
+    background-color: #EE6C4D;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.project .send{
+    align-self: flex-start;
+}
+.project .send input:hover{
+    background-color: #cf5537;
+}
+.project-container{
+     width: 100%;
+     background-color: #3D5A80;
+}
+.project h3{
+    color: white;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.project .orange-line{
+    width: 340px;
+    align-self: flex-start;
+    margin-top: -20px;
+}
+
+input[type="text"], input[type="email"]{
+    padding: 10px;
+    width: 37.7vw;
+}
+input[type="textarea"]{
+    padding: 10px;
+    width: 37.7vw;
+}
+form input{
+    background-color: #26384f;
+    color: white;
+    outline: none;
+    border: none;
+}
+form input::placeholder{
+    color:rgba(255, 255, 255, 0.333);
+    font-weight: 300;
+}
+form textarea{
+    padding: 10px;
+    background-color: #26384f;
+    color: white;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    resize: none;
+}
+form textarea::placeholder{
+    color:rgba(255, 255, 255, 0.333);
+    font-weight: 300;
+}
+.input{
+    display: flex;
+    gap : 20px;
+    justify-content: center;
+}
